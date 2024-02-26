@@ -1,0 +1,52 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\theil\OneDrive\Skrivebord\SpiceFiler4Sem\Oscilator\ColpittsOscilator.asc
+Start Time: Sat Feb 24 20:51:38 2024
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+solver = Normal
+Maximum thread count: 12
+
+
+
+Direct Newton iteration for .op point succeeded.
+.step cvar=2e-12
+
+
+
+.step cvar=4e-12
+
+
+
+.step cvar=6e-12
+
+
+
+.step cvar=8e-12
+
+
+
+.step cvar=1e-11
+
+
+
+.step cvar=1.2e-11
+
+
+
+.step cvar=1.4e-11
+
+
+
+.step cvar=1.6e-11
+
+
+
+.step cvar=1.8e-11
+tnom = 27
+temp = 27
+method = modified trap
+.step cvar=2e-11
+Total elapsed time: 0.771 seconds.
+
