@@ -1,0 +1,4 @@
+#ignore .log, .raw and .fft files
+.log
+.raw
+.fft
