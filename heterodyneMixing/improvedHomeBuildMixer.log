@@ -1,6 +1,6 @@
 LTspice 24.0.9 for Windows
 Circuit: * C:\Users\Ditte\aauRepo\esd4\project\heterodyneMixing\improvedHomeBuildMixer.asc
-Start Time: Thu Feb 29 09:46:54 2024
+Start Time: Fri Mar  1 09:39:36 2024
 Warning: Multiple definitions of model "2scr375p" Type: BJT
 Warning: Multiple definitions of model "bc857b" Type: BJT
 Warning: Multiple definitions of model "bc847c" Type: BJT
@@ -14,5 +14,5 @@ WARNING: Node OUTPUT is floating.
 
 WARNING: Less than two connections to node output.  This node is used by c4.
 Direct Newton iteration for .op point succeeded.
-Total elapsed time: 0.434 seconds.
+Total elapsed time: 0.354 seconds.
 

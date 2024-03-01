@@ -1,0 +1,20 @@
+* C:\Users\Ditte\aauRepo\esd4\project\heterodyneMixing\improvedHomeBuildMixer.asc
+R2 mid N004 4.7
+R3 mid N006 4.7
+C2 N004 N003 0.1µ
+C3 N006 N005 0.1µ
+V1 N005 0 SINE(0 10 258k)
+V2 N003 0 SINE(0 12 260k)
+C1 mid 0 470p
+C4 output N002 22µ
+R1 N001 mid 2.2m
+R4 N001 N002 3.9K
+C5 N001 0 100µ V=16
+V3 N001 0 12
+Q1 N002 mid 0 0 2N2222
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\Ditte\AppData\Local\LTspice\lib\cmp\standard.bjt
+.tran 0 0.005 0 0.0001
+.backanno
+.end
