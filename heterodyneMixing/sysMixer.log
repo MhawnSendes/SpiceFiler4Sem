@@ -1,6 +1,6 @@
 LTspice 24.0.9 for Windows
 Circuit: * C:\Users\Ditte\aauRepo\esd4\project\heterodyneMixing\sysMixer.asc
-Start Time: Mon Mar 25 20:35:26 2024
+Start Time: Tue Mar 26 08:23:52 2024
 solver = Normal
 Maximum thread count: 16
 tnom = 27
@@ -10,5 +10,5 @@ WARNING: Node FINAL is floating.
 
 WARNING: Less than two connections to node final.  This node is used by c4.
 Direct Newton iteration for .op point succeeded.
-Total elapsed time: 1.224 seconds.
+Total elapsed time: 1.986 seconds.
 
