@@ -1,6 +1,6 @@
 LTspice 24.0.9 for Windows
 Circuit: * C:\Users\theil\OneDrive\Skrivebord\SpiceFiler4Sem\Oscilator\FixedPointOscilator.asc
-Start Time: Tue Mar 26 09:40:40 2024
+Start Time: Thu Apr  4 14:50:50 2024
 Warning: Multiple definitions of model "2scr375p" Type: BJT
 Warning: Multiple definitions of model "bc857b" Type: BJT
 Warning: Multiple definitions of model "bc847c" Type: BJT
@@ -14,5 +14,5 @@ WARNING: Node N002 is floating.
 
 WARNING: Less than two connections to node vcc-.  This node is used by v2.
 Direct Newton iteration for .op point succeeded.
-Total elapsed time: 3.411 seconds.
+Total elapsed time: 2.233 seconds.
 
