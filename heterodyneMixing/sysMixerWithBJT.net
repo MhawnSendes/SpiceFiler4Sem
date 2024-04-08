@@ -1,0 +1,53 @@
+* Z:\home\mikkel\repoes\ESD4\project\heterodyneMixing\sysMixer.asc
+XU1 N010 N007 VA LO BF992
+R1 0 N007 110K
+R2 N010 VCC 4.7K
+C1 MixOut N010 1µ
+R3 N004 0 1k
+R9 0 N002 10.9K
+R5 N002 0 607
+V1 VA 0 SINE(0 3 250K)
+V2 LO 0 SINE(0 3 251K)
+V3 VCC 0 6
+V4 POS 0 12
+V5 0 NEG 12
+R4 LO 0 50
+R6 VA 0 50
+XU3 N004 N002 POS NEG 0 OP27
+D1 Amp1-Out 0 D
+R7 N011 Amp1-Out 1000k
+C3 N011 0 220p
+C2 Amp1-Out 0 30p
+R8 N003 0 1k
+R10 0 N001 10.9K
+R11 N001 0 607
+XU2 N003 N001 POS NEG 0 OP27
+XU4 0 N008 POS NEG N009 OP27
+R12 N008 0 1k
+R13 N009 N008 1k
+C4 final N009 1µ
+Q1 N005 MixOut P001 0 BC337-25
+R14 VCC N005 22k
+R15 P001 0 1k
+R16 VCC MixOut 33000k
+R17 MixOut 0 10000k
+C6 Amp1-Out N005 1µF
+Q2 N006 FilterOut P002 0 BC337-25
+R18 VCC N006 300k
+R19 P002 0 20k
+R20 VCC FilterOut 33000k
+R21 FilterOut 0 80000k
+C5 Amp2-Out N006 1µF
+C7 FilterOut N011 1µF
+.model D D
+.lib C:\users\mikkel\AppData\Local\LTspice\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\users\mikkel\AppData\Local\LTspice\lib\cmp\standard.bjt
+.tran 0 0.005 0 0.000001
+* A=19
+* A=19
+.lib ADI.lib
+.lib Dg_nmos.lib
+.backanno
+.end
