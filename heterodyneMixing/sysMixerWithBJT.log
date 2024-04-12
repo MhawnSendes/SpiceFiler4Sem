@@ -1,6 +1,6 @@
 LTspice 24.0.9 for Windows
 Circuit: * C:\Users\Ditte\aauRepo\esd4\project\heterodyneMixing\sysMixerWithBJT.asc
-Start Time: Mon Apr  8 11:40:42 2024
+Start Time: Thu Apr 11 13:39:16 2024
 Warning: Multiple definitions of model "2scr375p" Type: BJT
 Warning: Multiple definitions of model "bc857b" Type: BJT
 Warning: Multiple definitions of model "bc847c" Type: BJT
@@ -19,6 +19,7 @@ WARNING: Less than two connections to node final.  This node is used by c4.
 WARNING: Less than two connections to node amp2-out.  This node is used by c5.
 WARNING: Less than two connections to node n009.  This node is used by c7.
 WARNING: Less than two connections to node n012.  This node is used by c12.
+WARNING: Less than two connections to node nc_01.  This node is used by v6.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
 Gmin = 10
@@ -77,5 +78,5 @@ Source Step = 63.6364%
 Source Step = 93.9394%
 Source stepping succeeded in finding the operating point.
 
-Total elapsed time: 7.150 seconds.
+Total elapsed time: 4.332 seconds.
 
