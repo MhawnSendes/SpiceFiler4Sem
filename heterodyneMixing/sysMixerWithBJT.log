@@ -1,6 +1,6 @@
 LTspice 24.0.9 for Windows
 Circuit: * C:\Users\Ditte\aauRepo\esd4\project\heterodyneMixing\sysMixerWithBJT.asc
-Start Time: Mon Apr  8 11:40:42 2024
+Start Time: Thu Apr 18 14:19:44 2024
 Warning: Multiple definitions of model "2scr375p" Type: BJT
 Warning: Multiple definitions of model "bc857b" Type: BJT
 Warning: Multiple definitions of model "bc847c" Type: BJT
@@ -23,59 +23,21 @@ Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to sk
 Starting Gmin stepping
 Gmin = 10
 Gmin = 1.07374
-vernier = 0.5
-vernier = 0.25
-vernier = 0.125
-vernier = 0.0625
-Gmin = 1.12184
-vernier = 0.03125
-vernier = 0.015625
-Gmin = 1.05835
-vernier = 0.0208333
-vernier = 0.0104167
-Gmin = 1.03119
-vernier = 0.00520833
-vernier = 0.00694444
-vernier = 0.00347222
-Gmin = 1.02539
-vernier = 0.00462963
-vernier = 0.00231481
-Gmin = 1.01977
-vernier = 0.00308642
-vernier = 0.00154321
-vernier = 0.00205761
-Gmin = 1.01572
-vernier = 0.00102881
-vernier = 0.00137174
-Gmin = 1.01319
-vernier = 0.00068587
-Gmin = 1.01129
-vernier = 0.000914493
-vernier = 0.00121932
-vernier = 0.000609662
-Gmin = 1.00959
-vernier = 0.000812882
-vernier = 0.000406441
-Gmin = 1.00862
-vernier = 0.000541921
-vernier = 0.000722562
-vernier = 0.000541921
-Gmin = 1.00752
-vernier = 0.000406441
-vernier = 0.000541921
-vernier = 0.000406441
-Gmin = 1.00694
-vernier = 0.000541921
-vernier = 0.000406441
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
 Gmin = 0
-Gmin stepping failed
+Gmin stepping succeeded in finding the operating point.
 
-Starting source stepping with srcstepmethod=0
-Source Step = 3.0303%
-Source Step = 33.3333%
-Source Step = 63.6364%
-Source Step = 93.9394%
-Source stepping succeeded in finding the operating point.
-
-Total elapsed time: 7.150 seconds.
+Total elapsed time: 2.141 seconds.
 

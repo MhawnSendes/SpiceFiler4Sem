@@ -1,0 +1,67 @@
+* C:\Users\Ditte\aauRepo\esd4\project\heterodyneMixing\sysMixerWithBJT.asc
+XU1 N023 N014 N018 N021 BF992
+R_e 0 N014 100K
+R_vcc N023 VCC 4.7K
+C_c MixOut N023 1µ
+R3 N005 0 1k
+R9 0 N001 10.9K
+R5 N001 0 607
+V1 VA 0 SINE(0 1 270K)
+V2 LO 0 SINE(0 2 272K)
+V3 VCC 0 6
+R_va N021 0 1k
+R_lo N018 0 1k
+XU3 N005 N001 POS NEG 0 OP27
+D1 N007 0 D
+R7 N008 N007 1000k
+C3 N008 0 220p
+C2 N007 0 30p
+R8 N006 0 1k
+R10 0 N002 10.9K
+R11 N002 0 607
+XU2 N006 N002 POS NEG 0 OP27
+XU4 0 N003 POS NEG N004 OP27
+R12 N003 0 1k
+R13 N004 N003 1k
+C4 final N004 1µ
+Q1 N015 MixOut N022 0 BC337-25
+R14 VCC N015 4.7K
+R15 N022 0 1k
+R16 VCC MixOut 309K
+R17 MixOut 0 110K
+C6 Amp1-Out N015 1µF
+Q2 N013 N016 N017 0 BC337-25
+R18 VCC N013 4.7k
+R20 VCC N016 309K
+C5 Amp2-Out N013 1µF
+C7 N009 N008 1µF
+L1 N010 N011 2.39m
+L2 N011 3order 795µ
+C8 N011 0 636.62n
+R22 3order 0 50
+L3 Amp1-Out N019 68m
+L4 N019 N020 68m
+C9 N019 0 56n
+C10 N020 0 33n
+L5 N020 FilterOut 10m
+R23 FilterOut 0 1k
+D3 N010 0 D
+C11 N016 FilterOut 1µF
+C12 N012 3order 1µF
+R24 N017 0 1k
+R25 N016 0 110K
+C_va N021 VA 1µ
+C_lo N018 LO 1µ
+C1 Amp1-Out 0 56n
+.model D D
+.lib C:\Users\Ditte\AppData\Local\LTspice\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\Ditte\AppData\Local\LTspice\lib\cmp\standard.bjt
+.tran 0 0.005 0 0.000001
+* A = 42 (suspected)
+* A = 42 (suspected)
+.lib ADI.lib
+.lib Dg_nmos.lib
+.backanno
+.end
