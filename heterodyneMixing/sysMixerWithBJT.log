@@ -1,6 +1,6 @@
 LTspice 24.0.9 for Windows
 Circuit: * C:\Users\Ditte\aauRepo\esd4\project\heterodyneMixing\sysMixerWithBJT.asc
-Start Time: Mon Apr 15 13:56:35 2024
+Start Time: Thu Apr 18 14:19:44 2024
 Warning: Multiple definitions of model "2scr375p" Type: BJT
 Warning: Multiple definitions of model "bc857b" Type: BJT
 Warning: Multiple definitions of model "bc847c" Type: BJT
@@ -39,5 +39,5 @@ Gmin = 2.70769e-13
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 1.967 seconds.
+Total elapsed time: 2.141 seconds.
 
