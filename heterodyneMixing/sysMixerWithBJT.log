@@ -1,6 +1,6 @@
 LTspice 24.0.9 for Windows
 Circuit: * C:\Users\Ditte\aauRepo\esd4\project\heterodyneMixing\sysMixerWithBJT.asc
-Start Time: Mon Apr 22 10:53:29 2024
+Start Time: Wed Apr 24 08:55:48 2024
 Warning: Multiple definitions of model "2scr375p" Type: BJT
 Warning: Multiple definitions of model "bc857b" Type: BJT
 Warning: Multiple definitions of model "bc847c" Type: BJT
@@ -10,34 +10,9 @@ Maximum thread count: 16
 tnom = 27
 temp = 27
 method = modified trap
-WARNING: Node FINAL is floating.
-WARNING: Node AMP2-OUT is floating.
-WARNING: Node N009 is floating.
-WARNING: Node N012 is floating.
+WARNING: Node N013 is floating.
 
-WARNING: Less than two connections to node final.  This node is used by c4.
-WARNING: Less than two connections to node amp2-out.  This node is used by c5.
-WARNING: Less than two connections to node n009.  This node is used by c7.
-WARNING: Less than two connections to node n012.  This node is used by c12.
-Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
-Starting Gmin stepping
-Gmin = 10
-Gmin = 1.07374
-Gmin = 0.115292
-Gmin = 0.0123794
-Gmin = 0.00132923
-Gmin = 0.000142725
-Gmin = 1.5325e-05
-Gmin = 1.6455e-06
-Gmin = 1.76685e-07
-Gmin = 1.89714e-08
-Gmin = 2.03704e-09
-Gmin = 2.18725e-10
-Gmin = 2.34854e-11
-Gmin = 2.52173e-12
-Gmin = 2.70769e-13
-Gmin = 0
-Gmin stepping succeeded in finding the operating point.
-
-Total elapsed time: 2.019 seconds.
+WARNING: Less than two connections to node n013.  This node is used by c1.
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.112 seconds.
 
