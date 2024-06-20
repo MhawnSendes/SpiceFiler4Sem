@@ -1,0 +1,30 @@
+* C:\CSharp\AAU\ESD4\project\BJT-mixer-test.asc
+Q1 P001 N002 N004 0 BC337-25
+Q2 N001 N003 N004 0 BC337-25
+RE1 N004 N005 150
+RE2 N005 0 3k
+CE1 N005 0 440µF
+RB1 vcc N002 220k
+RB2 N002 0 220k
+R1 N003 0 220k
+RB3 vcc N003 220k
+CB_lo1 N002 LO-Out 47µF
+CB_pitch1 RF-Out N003 47µ
+CC1 MixOut N001 47µF
+RC_pitch1 vcc N001 3k
+RC_lo1 vcc P001 3k
+V1 vcc 0 12
+V2 LO-Out 0 SINE(0 0.5 240000)
+V3 RF-Out 0 SINE(0 1.25 242000)
+Q3 0 N006 P002 0 BC337-25
+RB4 vcc N006 220k
+RB5 N006 0 110k
+R2 P002 0 470
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\mikkel\AppData\Local\LTspice\lib\cmp\standard.bjt
+* Mixer
+.tran 0 0.3 0.1 0.0001
+.fourier 2K V(MixOut)
+.backanno
+.end
